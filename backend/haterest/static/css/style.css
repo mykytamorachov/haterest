@@ -1,0 +1,211 @@
+
+/**
+ * Grid container
+ */
+ 
+ 
+#tiles {
+list-style-type: none;
+position: relative; /** Needed to ensure items are laid out relative to this container **/
+margin: 0;
+}
+
+/**
+ * Grid items
+ */
+#tiles li {
+width: 200px;
+background-color: #ffffff;
+border: 1px solid #dedede;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+display: none; /** Hide items initially to avoid a flicker effect **/
+  cursor: pointer;
+padding: 4px;
+}
+
+#tiles li img {
+display: block;
+}
+
+/**
+ * Grid item text
+ */
+#tiles li p {
+color: #666;
+font-size: 12px;
+margin: 7px 0 0 7px;
+}
+
+/**
+ * Some extra styles to randomize heights of grid items.
+ */
+#tiles ali:nth-child(3n) {
+height: 175px;
+}
+
+#tiles ali:nth-child(4n-3) {
+padding-bottom: 30px;
+}
+
+#tiles ali:nth-child(5n) {
+height: 250px;
+}
+
+/** General page styling **/
+  
+html {
+background-color: #fff;
+}
+
+
+#main {
+padding: 30px 0 30px 0;
+}
+
+#header{
+	position:fixed;
+	overflow: visible;
+	background-color:#333333;
+	height: 49px;
+	z-index: 1000;
+	width: 100%;
+	clear: left;
+}
+.new{
+background-image:url(images/NEW.jpg); 
+background-repeat: no-repeat; 
+float:left; 
+width:78px;
+height:26px;
+}
+.new:hover{
+	background-image:url("images/NEW_butt.jpg");
+	background-repeat: no-repeat;
+	float:left; 
+	width:78px; 
+	height:26px;
+}
+#footer{
+	position:fixed;
+	overflow: visible;
+	background-color:#333333;
+	height: 49px;
+	z-index: 1000;
+	width: 100%;
+	clear: left;
+	left: 0; 
+	bottom: 0;
+}
+
+header h1 {
+text-align: center;
+font-size: 24px;
+font-weight: normal;
+margin: 30px 0 3px 0;
+}
+
+header p {
+text-align: center;
+font-size: 13px;
+color: #777;
+margin: 0;
+}
+.menu {
+	padding-top: 10px;
+}
+.mh_wrapper{
+  height:47px;
+  line-height:47px;
+  position:absolute;
+  float: left;
+  top: 0px;
+  left:0px;
+  font-family: "Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
+  font-size:16px;
+  text-transform:uppercase;
+}
+.mh_itemMain{
+  color:#f0f0f0;
+  z-index:10;
+    border:1px solid #222;
+    background-color:#333;
+  cursor:pointer;
+  text-align:left;
+  font-weight:bold;
+  text-indent:20px;
+  width:150px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  text-shadow:1px 1px 1px #000;
+}
+.mh_itemMain1{
+  color:#f0f0f0;
+  z-index:10;
+    border:1px solid #222;
+    background-color:#333;
+  cursor:pointer;
+  text-align:left;
+  text-indent:30px;
+  font-size: 24px;
+  width:160px;
+  position:absolute;
+  padding-left:40px;
+  top:0px;
+  left:0px;
+  text-shadow:1px 1px 1px #000;
+}
+.mh_itemMain1:hover{
+  color:#fff;
+}
+.mh_right{
+    width:40px;
+    height:47px;
+    position:absolute;
+    left:160px;
+    top:0px;
+    cursor:pointer;
+    border:1px solid #000;
+    background:#000 url(right.png) no-repeat center center;
+}
+.mh_wrapper ul {
+margin-top: 0;
+  position:absolute;
+  left:202px;
+  top:0px;
+  width:900px;
+  list-style:none;
+  padding:0px;
+  height:30px;
+}
+#upload a{
+background-color:#f7c637;
+color:#000;
+}
+.mh_wrapper ul li a{
+  text-decoration:none;
+  cursor:pointer;
+  display:block;
+  float:left;
+  margin:0px;
+  text-indent:0px;
+  padding:0px 15px 0px 10px;
+  line-height:47px;
+  height:47px;
+  text-indent:10px;
+  letter-spacing:1px;
+  color:#ddd;
+  background-color:#333333;
+  text-shadow:1px 1px 1px #000;
+  border:1px solid #333;
+  border-left:none;
+}
+.mh_wrapper ul li a.hover{
+  background:#333;
+  color:#fff;
+  -moz-box-shadow:0px 0px 3px #000 inset;
+  -webkit-box-shadow:0px 0px 3px #000 inset;
+  box-shadow:0px 0px 3px #000 inset;
+}
