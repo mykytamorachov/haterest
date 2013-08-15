@@ -1,5 +1,7 @@
 # Django settings for haterest project.
 
+
+#haterst
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
