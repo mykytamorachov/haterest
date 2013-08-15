@@ -1,4 +1,4 @@
-# Django settings for hiterest project.
+# Django settings for haterest project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -78,7 +78,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '&amp;x5^_6c%^7h9azfk&amp;yz+62v^m+9y@#&amp;&amp;bqy3#qaz2(c*3oie07'
+SECRET_KEY = '^c0efao$_g^!3l#!y7+fb+t$xj#2oi%-2tpkne6qr@%!5ybge@'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -97,10 +97,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'hiterest.urls'
+ROOT_URLCONF = 'haterest.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'hiterest.wsgi.application'
+WSGI_APPLICATION = 'haterest.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
